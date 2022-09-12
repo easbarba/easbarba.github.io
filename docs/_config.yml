@@ -1,9 +1,9 @@
 # Base settings
-title: Personal blog
+title: Alex Barbosa - Blog
 author: Alex Barbosa
 email: easbarba@outlook.com
 description: >-
-    Let's discuss all about Emacs, Guix, random cool cli software, and the likes.
+    Some thoughts on Emacs, Guix, and cool CLI software.
 baseurl: "/blog"
 url: "https://easbarba.github.io"
 repository: easbarba/easbarba.github.io
