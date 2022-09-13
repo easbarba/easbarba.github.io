@@ -36,21 +36,21 @@ dots --from /data/dotfile_folder --pretend
 and of course, cleaning everything:
 
 {% highlight sh %}
-dots --from /data/dotfile_folder --remove
+dots -f /data/dotfile_folder --remove
 {% endhighlight %}
 
 Your `$HOME` ain't after its user name? or you just want to link files in another
 directory, it goes as easy:
 
 {% highlight sh %}
-dots --from /data/bin -to ~/.local/bin --create
+dots -f /data/bin --to ~/.local/bin --create
 {% endhighlight %}
 
 Conflicting files at TO are backed up to `$HOME/.backup`.
 
 That is it. 
 
-For more information check the README.md at the repository.
+For more information check the `README.md` at the repository, or the `--help` option.
 
 > PS: In case you are wondering, what's with all those `main.*` files, as I pick
 > a new language to learn, I reckon that Dots is a good initial project as it
