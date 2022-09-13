@@ -3,8 +3,8 @@ title: Alex Barbosa - Blog
 author: Alex Barbosa
 email: easbarba@outlook.com
 description: >-
-    Some thoughts on Emacs, Guix, and cool CLI software.
-baseurl: "/blog"
+    Some thoughts on Linux, Emacs, and all those cool CLI software.
+#baseurl: "/blog"
 url: "https://easbarba.github.io"
 repository: easbarba/easbarba.github.io
 twitter_username: easbarba
@@ -12,10 +12,9 @@ github_username: easbarba
 
 # Build settings
 markdown: kramdown
-remote_theme: pages-themes/hacker@v0.2.0
+theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
