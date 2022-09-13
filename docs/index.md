@@ -3,7 +3,12 @@
 Title: Home Page
 layout: default
 ---
-Hi, i'm Alex Barbosa.
+Hi, I'm Alex Barbosa, a backend developer from Brazil. 
+
+Here I share with you tips, how-tos and, I reckon, even complaining of what I grow fond of GNU/Linux cool stuff, specially Emacs, Guix, Debian and
+Programming. 
+
+I hope you find something useful and who knows, get a like of them too. :)
 
 ## Posts
 
