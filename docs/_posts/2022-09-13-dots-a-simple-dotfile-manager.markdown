@@ -41,5 +41,11 @@ dots --from /data/bin -to ~/.local/bin --create
 
 If there are conflicting files at $HOME, those are backed up to $HOME/.backup.
 
-In case you are wondering, what's with all those `main.*` files, I've tried a few ports
-but only the Ruby, Java and Guile version are functional, pick your poison! :)
+In case you are wondering, what's with all those `main.*` files, as I pick a
+new language to learn, I reckon that Dots is a good initial project as it offers
+a rather large range of challenges. 
+
+But I reckon that only the Ruby, Java and Guile versions
+are fully functional. 
+
+With that said, pick your poison! :)
