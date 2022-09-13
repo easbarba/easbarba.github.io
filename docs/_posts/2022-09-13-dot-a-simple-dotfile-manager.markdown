@@ -32,7 +32,7 @@ Just want to peek on how it works?
 dots --from /data/dotfile_folder --pretend
 {% endhighlight %}
 
-To remove all linked files:
+Remove all linked files:
 
 {% highlight sh %}
 dots -f /data/dotfile_folder --remove
