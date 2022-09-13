@@ -20,8 +20,7 @@ damn good, but I've got the feeling that it could be even simpler.
 
 I cooked up [Dot](https://github.com/easbarba/dot) with those goals.
 
-You point the source dotfile directory and it links everything
-to `$HOME`, its that simple:
+All files in the pointed target directory are linked to `$HOME` by default, its that simple:
 
 {% highlight sh %}
 dots --from /data/dotfile_folder --create
@@ -46,14 +45,16 @@ directory, it goes as easy:
 dots -f /data/bin --to ~/.local/bin --create
 {% endhighlight %}
 
+If a `.dotsignore` is present, `Dot` ignores all listed files. eg: `LICENSE`.
+
 Conflicting files at TO are backed up to `$HOME/.backup`.
 
 That is it. 
 
 For more information check the `README.md` at the repository, or the `--help` option.
 
-> PS: In case you are wondering, what's with all those `main.*` files, as I pick
-> a new language to learn, I reckon that Dots is a good initial project as it
+> PS: In case you are wondering what's with all those `main.*` files, as I pick
+> a new language to learn `Dot` is a good initial project as any other, as it
 > offers a rather large range of challenges. 
 >
 > But I reckon that only the Ruby, Java and Guile versions are fully functional. 
