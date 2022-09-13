@@ -32,14 +32,13 @@ Just want to peek on how it works?
 dots --from /data/dotfile_folder --pretend
 {% endhighlight %}
 
-and of course, cleaning everything:
+To remove all linked files:
 
 {% highlight sh %}
 dots -f /data/dotfile_folder --remove
 {% endhighlight %}
 
-Your `$HOME` ain't after its user name? or you just want to link files in another
-directory, it goes as easy:
+You can set a different destination, it goes as easy:
 
 {% highlight sh %}
 dots -f /data/bin --to ~/.local/bin --create
@@ -47,7 +46,7 @@ dots -f /data/bin --to ~/.local/bin --create
 
 If a `.dotsignore` is present, `Dot` ignores all listed files. eg: `LICENSE`.
 
-Conflicting files at TO are backed up to `$HOME/.backup`.
+Conflicting files at destination are backed up to `$HOME/.backup`.
 
 That is it. 
 
@@ -55,7 +54,7 @@ For more information check the `README.md` at the repository, or the `--help` op
 
 > PS: In case you are wondering what's with all those `main.*` files, as I pick
 > a new language to learn `Dot` is a good initial project as any other, as it
-> offers a rather large range of challenges. 
+> offers a good set of challenges. 
 >
 > But I reckon that only the Ruby, Java and Guile versions are fully functional. 
 >
