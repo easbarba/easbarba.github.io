@@ -1,16 +1,16 @@
 ---
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 Title: Home Page
 layout: default
 ---
-Hi, I'm Alex Barbosa, a backend developer from Brazil. 
+Hi, I'm Alex Barbosa, a Java Developer & Linux power-user based on Brazil . 
 
-Here I share with you tips, how-tos and, I reckon, even complaining of what I grow fond of GNU/Linux cool stuff, specially Emacs, Guix, Debian and
-Programming. 
+Here I share tips, how-toes and I reckon even complaining articles of what I grow
+fond of GNU/Linux cool stuff, specially Emacs, GUI, Debian and general
+programming topics.
 
-I hope you find something useful and who knows, get a like of them too. :)
+I hope you find them useful, and who knows get a like of them too. :)
 
-## Posts
+## Writings
 
 <ul>
   {% for post in site.posts %}
