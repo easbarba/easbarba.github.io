@@ -9,44 +9,44 @@ Dotfiles...
 
 Those freaking awesome and at times terrifying little files. 
 
-As the name implies, named beginning with a dot, and usually residing on `$HOME`
+As the name implies, beginning with a dot, these files usually resides on `$HOME`
 directory to configure software behavior.
 
 One can share with friends, paste cool snippets and even version-control to
 easy the tedious routine on newly installed distributions.
 
-I have tried a lot of managers out there, some are just too complicated, some
-damn good, but I've got the feeling that it could be even simpler.
+I have tried a fair lot of managers out there, some are just too complicated, some
+damn fine, but it could be even simpler.
 
 I cooked up [Dot](https://github.com/easbarba/dot) with those goals.
 
-All files in the pointed target directory are linked to `$HOME` by default, its that simple:
+It creates links of all files in the target directory, perfectly mirroring in the `$HOME` directory by default, its that simple:
 
 {% highlight sh %}
 dots --from /data/dotfile_folder --create
 {% endhighlight %}
 
-Just want to peek on how it works?
+Not sure yet, then just take a peek on how it works:
 
 {% highlight sh %}
 dots --from /data/dotfile_folder --pretend
 {% endhighlight %}
 
-Remove all linked files:
+You can of course remove all linked files:
 
 {% highlight sh %}
 dots -f /data/dotfile_folder --remove
 {% endhighlight %}
 
-You can set a different destination, it goes as easy:
+ It goes as easy to set a different other destination than `$HOME`:
 
 {% highlight sh %}
 dots -f /data/bin --to ~/.local/bin --create
 {% endhighlight %}
 
-If a `.dotsignore` is present, `Dot` ignores all listed files. eg: `LICENSE`.
+Not just every file is to be linked, for those you can pin out files to be ignored by feeding the `.dotsignore`, same syntax of .dockerignore. eg: `LICENSE`.
 
-Conflicting files at destination are backed up to `$HOME/.backup`.
+Conflicting files at destination are moved up to `$HOME/.backup`.
 
 That is it. 
 
