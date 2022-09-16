@@ -16,11 +16,11 @@ One can share with friends, paste cool snippets and even version-control to
 easy the tedious routine on newly installed distributions.
 
 I have tried a fair lot of managers out there, some are just too complicated, some
-damn fine, but it could be even simpler.
+damn fine, but it could be even simpler just like most UNIX CLI apps.
 
-I cooked up [Dot](https://github.com/easbarba/dot) with those goals.
+I cooked up [Dot](https://github.com/easbarba/dot) with those goals in mind.
 
-It creates links of all files in the target directory, perfectly mirroring in the `$HOME` directory by default, its that simple:
+It creates links of all files in the target directory, perfectly mirroring in the `$HOME` directory, by default:
 
 {% highlight sh %}
 dots --from /data/dotfile_folder --create
