@@ -2,14 +2,11 @@
 Title: Home Page
 layout: default
 ---
-Hi, I'm Alex Barbosa, a Java Developer & Linux power-user based in Brazil. 
+Hi, I'm Alex Barbosa, a Linux advocate and Programmer based in Brazil. 
 
-Here I share articles on all of what I have grow fond in the GNU/Linux land,
-specially Emacs, Guix, Debian and general programming topics.
+I have as goal to introduce useful articles on Debian, Emacs, Guix, and miscellaneous programming topics.
 
-I hope you find them useful, and who knows, get a like of them too. :)
-
-## Writings
+## Articles
 
 <ul>
   {% for post in site.posts %}
