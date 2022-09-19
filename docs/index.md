@@ -2,9 +2,9 @@
 Title: Home Page
 layout: default
 ---
-Hi, I'm Alex Barbosa, a Linux advocate and Programmer based in Brazil. 
 
-I have as goal to introduce useful articles on Debian, Emacs, Guix, and miscellaneous programming topics.
+Hi, I'm Alex Barbosa. I have as goal to introduce helpful articles on Linux, Emacs
+and Programming.
 
 ## Articles
 
