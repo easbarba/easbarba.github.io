@@ -2,18 +2,22 @@
 layout: post
 title:  "Dot, yet another simple dotfile manager!"
 date:   2022-09-13 01:53:10 +0000
-categories: Unix
+categories: Unix Dotfiles Tools
 ---
 
-Dotfiles, as implied by its nickname, are files named beginning with a dot, that usually resides hidden on `$HOME` directory to configure software initial settings.
+Dotfiles, as implied by its nickname, are files named prepended with a
+dot, that configure software initial settings and usually residies hidden on
+`$HOME` directories.
 
-One can share them, paste cool snippets and even version-control to easy the
-tedious routine on newly installed distributions.
+Users craft their dotfiles through the years with a such a care that them
+can easily be the most sensible and essential files in their system, 
+version-controlling is a must, of course.
 
-I did try a fair lot of dotfiles managers out there, some are just too
-complicate, other's damn fine, but could not it to be simpler?
+There is even a culture of proudly publicly sharing dotfiles, and that's
+a good way to grab some cool snippets.
 
-I cooked up [Dot](https://github.com/easbarba/dot) with such goals in mind.
+We all love how frugal and simple to use are the Linux tools as `find`, `grep` or `ls`, so
+I kept that in mind on cooking up [Dot](https://github.com/easbarba/dot).
 
 `Dot` creates links of all files in the target directory, perfectly mirroring them in the destination directory, `$HOME` by default:
 
