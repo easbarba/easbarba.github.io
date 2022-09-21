@@ -3,10 +3,9 @@ Title: Home Page
 layout: default
 ---
 
-Hi, I'm Alex Barbosa. I have as goal to introduce helpful articles on Linux, Emacs
-and Programming.
+Short tips on all the great things of Linux distributions, its tools, and specially Emacs and Programming.
 
-## Articles
+## Tips
 
 <ul>
   {% for post in site.posts %}
