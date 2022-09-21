@@ -1,9 +1,9 @@
 # Base settings
-title: Alex Barbosa - Short Tips on cool techies
+title: Alex Barbosa - Linux Tools short tips
 author: Alex Barbosa
 email: easbarba@outlook.com
 description: >-
-    Some thoughts on Emacs and Linux stuff.
+    Tips on Linux tools and Emacs.
 #baseurl: "/blog"
 url: "https://easbarba.github.io"
 repository: easbarba/easbarba.github.io
