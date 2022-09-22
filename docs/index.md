@@ -3,7 +3,7 @@ Title: Home Page
 layout: default
 ---
 
-Short tips on all the great things of Linux distributions, its tools, and specially Emacs and Programming.
+Miscellaneous tips on all of the awesome things of Linux and related techies.
 
 ## Tips
 
