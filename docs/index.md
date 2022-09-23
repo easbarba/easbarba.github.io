@@ -3,9 +3,11 @@ Title: Home Page
 layout: default
 ---
 
+## Objective
+
 Miscellaneous tips on all of the awesome things of Linux and related techies.
 
-## Tips
+## Posts
 
 <ul>
   {% for post in site.posts %}
