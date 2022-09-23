@@ -1,9 +1,9 @@
 # Base settings
-title: Alex Barbosa - Linux & Techies Tips
+title: Alex Barbosa - All the good Linux things
 author: Alex Barbosa
 email: easbarba@outlook.com
 description: >-
-    Linux & Techies Tips
+    Articles on all the good Linux things.
 #baseurl: "/blog"
 url: "https://easbarba.github.io"
 repository: easbarba/easbarba.github.io
