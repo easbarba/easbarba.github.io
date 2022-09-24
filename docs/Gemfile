@@ -3,9 +3,9 @@ source 'https://rubygems.org'
 gem 'github-pages', '~> 227', group: :jekyll_plugins
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
+gem 'faraday-retry', '~> 2.0'
 gem 'minima', '~> 2.0'
 gem 'webrick', '~> 1.7'
-gem 'faraday-retry', '~> 2.0'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do

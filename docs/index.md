@@ -1,6 +1,6 @@
 ---
-Title: Home Page
 layout: default
+Title: Home Page
 ---
 
 ## Posts

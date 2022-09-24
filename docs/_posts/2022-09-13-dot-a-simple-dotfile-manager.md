@@ -3,6 +3,7 @@ layout: post
 title:  "Dot, yet another simple dotfile manager!"
 date:   2022-09-13 01:53:10 +0000
 categories: Unix Dotfiles Tools
+author: Alex Barbosa
 ---
 
 Dotfiles, as implied by its nickname, are files named prepended with a

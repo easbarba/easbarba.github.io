@@ -1,19 +1,22 @@
 # Base settings
-title: Alex Barbosa - All the good Linux things
+title: All the good Linux things.
 author: Alex Barbosa
 email: easbarba@outlook.com
+mastodon: easbarba
 description: >-
-    Articles on all the good Linux things.
+  A bit of all that makes Linux so awesome!
 #baseurl: "/blog"
-url: "https://easbarba.github.io"
+url: https://easbarba.github.io
 repository: easbarba/easbarba.github.io
 github_username: easbarba
+github: [metadata]
 
 # Build settings
 markdown: kramdown
-theme: minima
+remote_theme: pages-themes/midnight@v0.2.0
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
