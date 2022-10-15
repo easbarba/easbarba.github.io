@@ -23,3 +23,7 @@ Just run something like the follow with your favorite container runner, be it `p
 al -H 0.0.0.0 --force_polling'
 ```
 
+# LICENSE
+
+[GPL-v3](https://www.gnu.org/licenses/gpl-3.0.en.html)
+
